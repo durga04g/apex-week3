@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Quiz</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="quiz-container container">
+        <div class="col-sm-4">
+        </div>
+        <h2>Flower Quiz</h2>
+        <div id="quiz" class="col-sm-8"></div>
+            <div class="question-container">
+                <p class="question">1. Which flower is known as the "Queen of the Night" because it blooms only at night?</p>
+                <ul class="options">
+                    <li><input type="radio" name="q1" value="a"> a) Daffodil</li>
+                    <li><input type="radio" name="q1" value="b"> b) Sunflower</li>
+                    <li><input type="radio" name="q1" value="c"> c) Orchid</li>
+                    <li><input type="radio" name="q1" value="d"> d) Night-blooming Cereus</li>
+                </ul>
+            </div>
+            <div class="question-container">
+                <p class="question">2. What flower is the national symbol of Japan, often celebrated during the spring season?</p>
+                <ul class="options">
+                    <li><input type="radio" name="q2" value="a"> a) Cherry Blossom</li>
+                    <li><input type="radio" name="q2" value="b"> b) Tulip</li>
+                    <li><input type="radio" name="q2" value="c"> c) Rose</li>
+                    <li><input type="radio" name="q2" value="d"> d) Lotus</li>
+                </ul>
+            </div>
+            <div class="question-container">
+                <p class="question">3. Which flower is associated with peace and is commonly used to symbolize it?</p>
+                <ul class="options">
+                    <li><input type="radio" name="q3" value="a"> a) Marigold</li>
+                    <li><input type="radio" name="q3" value="b"> b) White Lily</li>
+                    <li><input type="radio" name="q3" value="c"> c) Olive Branch Flower</li>
+                    <li><input type="radio" name="q3" value="d"> d) Orchid</li>
+                </ul>
+            </div>
+            <div class="question-container">
+                <p class="question">4. Which flower's oil is commonly used in aromatherapy for its calming effects?</p>
+                <ul class="options">
+                    <li><input type="radio" name="q4" value="a"> a) Sunflower</li>
+                    <li><input type="radio" name="q4" value="b"> b) Lavender</li>
+                    <li><input type="radio" name="q4" value="c"> c) Hibiscus</li>
+                    <li><input type="radio" name="q4" value="d"> d) Daffodil</li>
+                </ul>
+            </div>
+            <button class="submit-btn" onclick="submitQuiz()">Submit</button>
+            <div class="result" id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
